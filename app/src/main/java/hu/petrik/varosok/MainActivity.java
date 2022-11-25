@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String base_url = "https://retoolapi.dev/LkbtQ7/varosok";
+
     private Button listazogomb;
     private Button felvevogomb;
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        init();
 
         listazogomb.setOnClickListener(new View.OnClickListener() {
             @Override
